@@ -1,0 +1,33 @@
+*{
+	font-family: arial Black;
+}
+
+/*Diseño del cuadro de informacion*/
+#cuadro{
+	width: 470px;
+  	height: 570px;
+  	background: #28B463;
+	color: white; 
+	-webkit-box-shadow: 12px 12px 14px 3px rgba(0,0,0,0.6);
+    -moz-box-shadow: 12px 12px 14px 3px rgba(0,0,0,0.6);
+    box-shadow: 12px 12px 14px 3px rgba(0,0,0,0.6);
+  }
+
+ /*De aquí se tomaran los datos de la imagen para js, y dejar la imagen del tamaño originar*/
+ #ubi{
+ 	height: px;
+	width:px
+	padding: px;
+	margin:px;
+	border: 5px solid black;
+ }
+
+ #boton1{
+ 	background: #784212;
+	color: white;
+ 	-webkit-box-shadow: 12px 12px 14px 3px rgba(0,0,0,0.6);
+    -moz-box-shadow: 12px 12px 14px 3px rgba(0,0,0,0.6);
+    box-shadow: 12px 12px 14px 3px rgba(0,0,0,0.6);
+ }
+
+

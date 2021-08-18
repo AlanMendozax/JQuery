@@ -1,0 +1,45 @@
+*{
+	font-family: consola;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	text-shadow: 0.1em 0.1em 0.2em black
+}
+
+body{
+	background-color: #384A96;
+}
+/* Gif */
+.cool{
+	position: absolute;
+	left: 66.50%;
+	top:39%;
+}
+
+/* Diseño de la tabla */
+.tabla{
+	border: 1px solid black;
+	color: white;
+	text-align: center;
+	position: absolute;
+	top: 35%;
+	left: 43.40%;
+	-webkit-box-shadow: 12px 12px 14px 3px rgba(0,0,0,0.6);
+    -moz-box-shadow: 12px 12px 14px 3px rgba(0,0,0,0.6);
+    box-shadow: 12px 12px 14px 3px rgba(0,0,0,0.6);
+}
+
+/* Hover para la posicion del mouse encima de los cuadros de tabla */
+.hover{
+	background-color:  #4D4D4F;
+}
+
+/* Clase high que se agrega en JQuery */
+.high{
+	background-color: gold;
+	font-weight: bold;
+	color: black;
+}
+

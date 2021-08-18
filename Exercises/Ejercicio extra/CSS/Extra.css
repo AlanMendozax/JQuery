@@ -1,0 +1,54 @@
+*{
+	font-family: arial Black;
+}
+
+/*Diseño del cuadro de informacion*/
+#cuadro{
+	width: 470px;
+  	height: 790px;
+  	background: #28B463;
+	color: white; 
+	-webkit-box-shadow: 12px 12px 14px 3px rgba(0,0,0,0.6);
+    -moz-box-shadow: 12px 12px 14px 3px rgba(0,0,0,0.6);
+    box-shadow: 12px 12px 14px 3px rgba(0,0,0,0.6);
+	margin-top: 20px;
+  }
+
+ /* De aquí se tomaran los datos de la imagen para el script de js, y para dejar la imagen del tamaño original */
+ #ubi{
+ 	height: px;
+	width:px
+	padding: px;
+	margin:px;
+	border: 5px solid black;
+	border-radius: px;
+	box-shadow: ;
+ }
+
+ /* Se modifico el margen superior de la informacion que esta dentro del div cuadro */
+ #imagen{
+ 	margin-top: 10%;
+ }
+
+/*Margen de la izquierda al parrafo*/
+ #editar, #editar2{
+	margin-left: 40px;
+ }
+
+ /*Margen de la izquierda al parrafo*/
+#dimension{
+	margin-left: 40px;
+}
+
+#boton2{
+ 	background: #784212;
+	color: white;
+ 	-webkit-box-shadow: 12px 12px 14px 3px rgba(0,0,0,0.6);
+    -moz-box-shadow: 12px 12px 14px 3px rgba(0,0,0,0.6);
+    box-shadow: 12px 12px 14px 3px rgba(0,0,0,0.6);
+ }
+
+ #esqs{
+ 	background: #784212;
+	color: white;
+ }

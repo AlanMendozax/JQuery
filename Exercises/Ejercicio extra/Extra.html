@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>IMAGEN</title>
+	<link rel="stylesheet" type="text/css" href="CSS/Extra.css">
+
+	<script type="text/javascript" src="JS/jQuery-3.2.1.js"></script>
+	<script type="text/javascript" src="JS/Extra.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+	<!-- Contenedores -->
+	<div align="center">
+		<div id="cuadro">
+			
+		<!--Input donde se selecciona la imagen-->
+			INGRESAR UNA IMAGEN: <input id="imagen"	type="file" accept="image/*"><br><br>
+			
+			
+			EDITAR: <br><br>
+			<p id="editar" align="left">
+			ANCHO: <input id="ancho" type="number"><br><br>
+			ALTO: <input id="alto" type="number"><br><br>
+			</p>
+			
+			<button id="boton2" class="btn btn-lg"> CAMBIAR </button><br><br>			
+			<p id="editar2" align="left">
+			MARCO: <input id="marcos" type="checkbox" value="1">No <br><br>
+			ESQUINAS REDONDAS:
+			<input id="esqn" type="number" value=""> <button id="esqs" class="btn" > CAMBIAR </button><br><br>
+			SOMBRA: <input id="sombras" type="checkbox" value="2">Si
+			<br><br>
+			</p>			
+			DIMENSIONES: <p id="dimension" align="left"> Pase el cursor por la imagen </p>		
+		</div><br><br>	
+		 <img id="ubi" src="IMG/amon.jpg" alt=""> <br><br><br>
+
+		
+	</div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+*{
+	font-family: consola;
+}
+
+body{
+background-color: #384A96;
+}
+
+h1{
+color:white;
+text-align: center;
+text-shadow: 0.1em 0.1em 0.2em black
+}
+
+.s1{	
+	position: absolute;
+	width: 350px; height: 250px;
+	left: 41.50%;
+	top:35%;
+}
+
+#div1{
+	position: absolute;
+	left: 37%;
+	top: 28%;
+	-webkit-box-shadow: 12px 12px 14px 3px rgba(0,0,0,0.6);
+    -moz-box-shadow: 12px 12px 14px 3px rgba(0,0,0,0.6);
+    box-shadow: 12px 12px 14px 3px rgba(0,0,0,0.6);
+}
+
+#elegir{
+	position: absolute;
+	left: 42%;
+	top: 84%;
+
+}
+
+#btn-aplicar{
+	background-color: gold;
+    color:black;
+	position: absolute;
+	left: 60%;
+	top: 83%;
+}
